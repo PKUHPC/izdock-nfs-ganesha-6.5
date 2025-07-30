@@ -11,11 +11,11 @@ ENV APP_DESCRIPTION "NFS-Ganesha Userspace NFS File Server"
 
 # https://github.com/nfs-ganesha/nfs-ganesha/releases
 # default version vars
-ARG APP_VER=4.0.12
+ARG APP_VER=6.5
 
 # https://github.com/nfs-ganesha/ntirpc/releases
 # for ganesha 4.0.x
-ARG NTIRPC_VERSION=4.0
+ARG NTIRPC_VERSION=6.3
 
 # for ganesha 3.0.x
 #ARG NTIRPC_VERSION=3.0
